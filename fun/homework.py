@@ -6,10 +6,9 @@ def find_greatest_number(incoming_list):
     """
 incoming_list = [1,2,3,4,5]
 incoming_list.sort()
-greatest_number = incoming_list[-1] 
+greatest_number = incoming_list[-1]
 print(greatest_number)
 pass
-
 def find_least_number(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -17,10 +16,9 @@ def find_least_number(incoming_list):
     """
 incoming_list = [1,2,3,4,5]
 incoming_list.sort()
-smallest_number = incoming_list[:1] 
+smallest_number = incoming_list[:1]
 print(smallest_number)
 pass
-
 def add_list_numbers(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -28,9 +26,8 @@ def add_list_numbers(incoming_list):
     """
 incoming_list = [1,2,3,4,5]
 Addlist = sum(incoming_list)
-print(Addlist)  
+print(Addlist)
 pass
-
 def add_list_numbers(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -38,5 +35,5 @@ def add_list_numbers(incoming_list):
     """
 incoming_dict = ['blue', 'green', 'black', 'orange', 'yellow', 'burgundy']
 largest_word = max(incoming_dict, key = len)
-print(largest_word)  
+print(largest_word)
 pass
