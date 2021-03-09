@@ -1,6 +1,4 @@
 """Homework file for my students to have fun with some algorithms! """
-
-
 def find_greatest_number(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -11,7 +9,6 @@ incoming_list.sort()
 greatest_number = incoming_list[-1] 
 print(greatest_number)
 pass
-
 
 def find_least_number(incoming_list):
     """
@@ -24,8 +21,6 @@ smallest_number = incoming_list[:1]
 print(smallest_number)
 pass
 
-
-
 def add_list_numbers(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -35,7 +30,6 @@ incoming_list = [1,2,3,4,5]
 Addlist = sum(incoming_list)
 print(Addlist)  
 pass
-
 
 def add_list_numbers(incoming_list):
     """
